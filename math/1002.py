@@ -15,3 +15,5 @@ for _ in range(t):
         print(2)
     else:
         print(0)
+
+# 두 점 사이의 거리와 반지름의 합 또는 차를 비교

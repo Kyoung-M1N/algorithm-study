@@ -13,3 +13,4 @@ while total >= 0:
 else:
     print(-1)
     
+# while문에 사용되는 조건식에도 else문이 유효하게 적용됨 
