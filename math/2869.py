@@ -10,3 +10,5 @@ while v > 0:
         print(day)
         break
     v += b
+
+# 아직 풀이 중(시간초과)
