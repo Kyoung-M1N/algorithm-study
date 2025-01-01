@@ -95,10 +95,24 @@ class GraphNode {
     int cost;
 }
 
+class BinaryTree {
+    // 1차원 배열로 이진트리를 표현
+    // 0번은 사용하지 않는 것이 더 편하다
+    // 부모 노드에 접근 -> (자식노드 인덱스 / 2)
+    // 자식 노드에 접근 -> 왼족 자식 노드 : (부모노드 * 2), 왼족 자식 노드 : (부모노드 * 2 + 1)
+    int[] binaryTree = new int[7];
+
+}
 
 class TreeNode {
-    String name;
-    int age;
+    String data;
+
+    // 부모 노드
+    TreeNode parent;
+
+    // 왼쪽 자식 노드
     TreeNode lNode;
+
+    // 오른쪽 자식 노드
     TreeNode rNode;
 }
